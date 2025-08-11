@@ -1,4 +1,4 @@
-import Dexie, { Table } from 'dexie'
+import Dexie, { type Table } from 'dexie'
 import type { Course, PreferenceKV, Score, Tee } from '@types/index'
 
 export class AppDatabase extends Dexie {

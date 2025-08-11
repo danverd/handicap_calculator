@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Box, Button, Dialog, DialogActions, DialogContent, DialogTitle, FormControl, FormControlLabel, InputLabel, MenuItem, Select, SelectChangeEvent, Stack, Switch, TextField } from '@mui/material'
+import { Box, Button, Dialog, DialogActions, DialogContent, DialogTitle, FormControl, FormControlLabel, InputLabel, MenuItem, Select, type SelectChangeEvent, Stack, Switch, TextField } from '@mui/material'
 import type { Tee } from '@types/index'
 import type { CourseProvider } from '@features/courses/courses.provider'
 import { listTeesMerged } from '@features/courses/courses.service'

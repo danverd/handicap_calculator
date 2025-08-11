@@ -1,5 +1,5 @@
 /* eslint-disable react-refresh/only-export-components */
-import { Alert, AlertColor, Snackbar } from '@mui/material'
+import { Alert, type AlertColor, Snackbar } from '@mui/material'
 import React, { createContext, useCallback, useContext, useMemo, useState } from 'react'
 
 type SnackbarMessage = { message: string; severity?: AlertColor; durationMs?: number }
